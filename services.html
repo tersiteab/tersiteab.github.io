@@ -5,13 +5,13 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<!-- <head>
+	<head>
 		<title>Tersiteab Adem</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head> -->
+	</head>
 	<body class="is-preload">
 
 		<!-- Wrapper -->
@@ -53,7 +53,31 @@
 					</nav>
 					<!-- <i class="fa-solid fa-envelope"></i> -->
 				<!-- Main -->
-					<!-- <div id="main">
+					 <div id="main">
+						<div class="table-wrapper">
+							<table class="alt">
+								<tbody>
+									<tr>
+										<td>Reviewer for University of Michigan graduate student admission, 2024</td>
+										
+									</tr>
+									<tr>
+										<td>Ab Research Lab Manager, Jan 2024 - Present</td>
+										
+									</tr>
+									<tr>
+										<td>CSE Graduate Student Organization at University of Michigan Ann Arbor - Recruitment Chair, Sept 2023 - Present</td>
+										
+									</tr>
+									<tr>
+										<td>African Undergraduate Research Adventure (<a href="https://aura.engin.umich.edu/home" >AURA</a>) - Student Mentor, May 2023 - August 2023</td>
+										
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						</div>
+						<!--
 
 						Featured Post
 							<article class="post featured">
@@ -170,7 +194,7 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<form method="post" action="#">
+							<form method="GET" action="mailto:tersitabm@gmail.com" enctype="text/plain"> <!-- method="post" action="#"> -->
 								<div class="fields">
 									<div class="field">
 										<label for="name">Name</label>
@@ -187,6 +211,7 @@
 								</div>
 								<ul class="actions">
 									<li><input type="submit" value="Send Message" /></li>
+									<input type="hidden" name="body" />
 								</ul>
 							</form>
 						</section>
@@ -233,6 +258,35 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				var form = document.getElementsByTagName('form')[0];
+				form.addEventListener('submit',contact,false);
+				function contact(e) {
+				   // Prevent Default Form Submission
+				   e.preventDefault();
+			 
+				   var target = e.target || e.srcElement;
+				   var i = 0;
+				   var message = '';
+			 
+				   // Loop Through All Input Fields
+				   for(i = 0; i < target.length; ++i) {
+					  // Check to make sure it's a value. Don't need to include Buttons
+					  if(target[i].type != 'text' && target[i].type != 'textarea') {
+							 // Skip to next input since this one doesn't match our rules
+						 continue;
+					  }
+			 
+					  // Add Input Name and value followed by a line break
+					  message += target[i].name + ': ' + target[i].value + "\r\n";
+				   }
+				   // Modify the hidden body input field that is required for the mailto: scheme
+				   target.elements["body"].value = message;
+			 
+				   // Submit the form since we previously stopped it. May cause recursive loop in some browsers? Should research this.
+				   this.submit();
+				}
+			</script>
 
 	</body>
 </html>
