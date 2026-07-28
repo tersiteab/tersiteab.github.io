@@ -40,29 +40,37 @@ navbar_title: Research
 
       <article class="research-project">
         <div class="research-project__heading">
-          <span class="badge badge-info">Primary project</span>
-          <h3>Accelerating Point Cloud-Based 3D Perception</h3>
+          <span class="badge badge-warning">Under submission</span>
+          <h3>Mnemosyne: Temporal Redundancy for Efficient LiDAR 3D Object Detection</h3>
         </div>
         <p>
-          I am investigating efficient execution of 3D perception workloads for
-          autonomous vehicles, with an emphasis on object detection and segmentation.
+          Mnemosyne is a speculative memoization framework that exploits temporal
+          redundancy across consecutive LiDAR frames. A lightweight inter-frame
+          similarity checker and motion compensation enable reuse of detection
+          outputs or intermediate activations.
         </p>
         <ul>
-          <li>Profile state-of-the-art 3D object detection and segmentation models.</li>
-          <li>Identify compute and memory bottlenecks on NVIDIA GPUs.</li>
-          <li>Explore hardware-software co-design opportunities for lower-latency perception.</li>
+          <li>Evaluated across five model-dataset benchmarks.</li>
+          <li>Achieves 5.8× average speedup and up to 10.2× speedup.</li>
+          <li>Reduces energy by 2.39× with approximately 10% accuracy loss.</li>
         </ul>
       </article>
 
       <article class="research-project">
         <div class="research-project__heading">
-          <span class="badge badge-secondary">Ongoing</span>
-          <h3>UCIe for Autonomous Vehicle Systems</h3>
+          <span class="badge badge-warning">Under submission</span>
+          <h3>AutoProbe: Characterizing and Profiling ADAS/AD Workloads in Autoware</h3>
         </div>
-        <p class="mb-0">
-          I am simulating and testing the Universal Chiplet Interconnect Express
-          protocol to study chiplet-based system integration for autonomous vehicle workloads.
+        <p>
+          AutoProbe is a multi-level profiling framework combining ROS 2 pipeline
+          tracing, LLVM-based architecture-agnostic instrumentation, and
+          hardware-specific binary profiling.
         </p>
+        <ul>
+          <li>Reconstructs Autoware task graphs and critical execution paths.</li>
+          <li>Measures per-node and end-to-end latency, communication, instruction mix, and memory traffic.</li>
+          <li>Supports roofline characterization across heterogeneous platforms and sensor configurations.</li>
+        </ul>
       </article>
     </section>
 
@@ -74,12 +82,20 @@ navbar_title: Research
 
       <article class="work-in-progress">
         <div>
-          <span class="badge badge-warning">Manuscript in preparation</span>
-          <h3>Hardware-Software Co-design for Real-Time Perception Workloads</h3>
+          <span class="badge badge-warning">Under submission</span>
+          <h3>Mnemosyne</h3>
           <p>
-            A manuscript based on ongoing work to characterize point cloud-based
-            perception models and develop architectural techniques for meeting the
-            latency and efficiency demands of autonomous systems.
+            Temporal-redundancy techniques for efficient LiDAR 3D object detection.
+          </p>
+        </div>
+      </article>
+      <article class="work-in-progress">
+        <div>
+          <span class="badge badge-warning">Under submission</span>
+          <h3>AutoProbe</h3>
+          <p>
+            Cross-layer characterization and profiling of ADAS and autonomous-driving
+            workloads in Autoware.
           </p>
         </div>
       </article>

@@ -47,22 +47,11 @@ education:
   date: Sep. 2015 - Dec. 2020
 
 experience:
-- name: University of Michigan
-  dept: Computer Science & Engineering
-  position: Graduate Student Research Assistant
-  date: Aug. 2022 - present
 - name: imec
   dept: Architecture Performance Modeling
   position: Intern
-  date: May 2025 - Aug. 2025
+  date: "2025"
 - name: University of Michigan
   dept: Undergraduate Research
   position: Research Intern
-  date: Jun. 2021 - Oct. 2021
-- name: Tohey Technologies
-  position: Software Engineer
-  date: Mar. 2021 - Jul. 2022
-- name: Hamoye
-  dept: Data Science Internship Program
-  position: Data Science Intern
-  date: Jun. 2020 - Dec. 2020
+  date: "2021"
