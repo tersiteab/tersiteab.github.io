@@ -133,34 +133,6 @@ a:hover {
     margin-bottom: 0.5rem;
 }
 
-.research-themes {
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 1rem;
-    margin-top: 1.25rem;
-}
-
-.research-themes > div {
-    border-left: 3px solid var(--link);
-    padding: 0.25rem 0 0.25rem 0.85rem;
-}
-
-.research-themes i {
-    color: var(--link);
-    margin-right: 0.35rem;
-}
-
-.research-themes strong,
-.research-themes span {
-    display: block;
-}
-
-.research-themes span {
-    color: var(--muted);
-    font-size: 0.9rem;
-    margin-top: 0.3rem;
-}
-
 .theme-toggle {
     align-items: center;
     background: transparent;
@@ -303,9 +275,6 @@ a:hover {
         grid-template-columns: 1fr;
     }
 
-    .research-themes {
-        grid-template-columns: 1fr;
-    }
 }
 
 .inline-badge {
