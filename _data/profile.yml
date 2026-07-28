@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Tersiteab Adem"
 
 positions:
-- name: Ph.D. Student in Computer Science & Engineering
+- name: Ph.D. Candidate in Computer Science & Engineering
 - name: University of Michigan
 
 
@@ -20,7 +20,7 @@ linkedin: tersiteab-adem-b504a7152
 short_bio_text_justify: false
 short_bio: >-
   <p>
-    I am a Ph.D. student in Computer Science & Engineering at the
+    I am a Ph.D. candidate in Computer Science & Engineering at the
     <a href="https://cse.engin.umich.edu/" target="_blank">University of Michigan</a>,
     advised by <a href="https://valeria-bertacco.eecs.umich.edu/" target="_blank">Prof. Valeria Bertacco</a>.
     My research sits at the intersection of computer architecture, energy-efficient computing,
@@ -28,7 +28,7 @@ short_bio: >-
   </p>
   <p>
     I began my doctoral work on sustainable computing and energy-aware architectures.
-    My current work focuses on hardware-software co-design for real-time perception workloads,
+    My current work focuses on hardware-software co-design for real-time point cloud based perception workloads,
     with a broader interest in how emerging computational demands shape architectural design.
     I earned my B.Sc. in Electrical and Computer Engineering from Addis Ababa University.
   </p>
@@ -48,8 +48,21 @@ education:
 
 experience:
 - name: University of Michigan
+  dept: Computer Science & Engineering
   position: Graduate Student Research Assistant
   date: Aug. 2022 - present
+- name: imec
+  dept: Architecture Performance Modeling
+  position: Intern
+  date: May 2025 - Aug. 2025
+- name: University of Michigan
+  dept: Undergraduate Research
+  position: Research Intern
+  date: Jun. 2021 - Oct. 2021
 - name: Tohey Technologies
   position: Software Engineer
   date: Mar. 2021 - Jul. 2022
+- name: Hamoye
+  dept: Data Science Internship Program
+  position: Data Science Intern
+  date: Jun. 2020 - Dec. 2020
