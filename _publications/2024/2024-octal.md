@@ -13,4 +13,6 @@ authors:
   - Tersiteab Adem
   - Petros Mola
   - Todd M. Austin
+links:
+  DOI: https://doi.org/10.1109/SecDev61143.2024.00018
 ---

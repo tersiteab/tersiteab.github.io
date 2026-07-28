@@ -250,6 +250,33 @@ a:hover {
     margin: 0.65rem 0 0.4rem;
 }
 
+.research-project {
+    border-top: 1px solid var(--border);
+    padding: 1.1rem 0;
+}
+
+.research-project:last-child {
+    padding-bottom: 0;
+}
+
+.research-project__heading {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    margin-bottom: 0.55rem;
+}
+
+.research-project__heading h3 {
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.research-project ul {
+    margin-bottom: 0;
+    padding-left: 1.2rem;
+}
+
 .service-item {
     display: grid;
     grid-template-columns: 44px minmax(0, 1fr);
