@@ -161,11 +161,6 @@ a:hover {
     margin-top: 0.3rem;
 }
 
-.work-in-progress {
-    border-top: 1px solid var(--border);
-    padding-top: 1rem;
-}
-
 .theme-toggle {
     align-items: center;
     background: transparent;
@@ -243,11 +238,6 @@ a:hover {
 [data-theme="dark"] .nav-pills .nav-link.active {
     background-color: var(--link);
     color: #101417;
-}
-
-.work-in-progress h3 {
-    font-size: 1.1rem;
-    margin: 0.65rem 0 0.4rem;
 }
 
 .research-project {
