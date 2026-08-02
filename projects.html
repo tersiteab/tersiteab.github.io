@@ -9,6 +9,14 @@ navbar_title: Projects
     <h1 class="pt-4 mb-3">Projects</h1>
     <div class="bg-white shadow-sm rounded-xl px-4">
       <article class="project-item">
+        <img src="{{ '/assets/images/projects/evergreen.jpg' | relative_url }}" alt="CGRA simulation using SST">
+        <div>
+          <h2>Parallel Simulation of Coarse-Grained Reconfigurable Arrays using SST</h2>
+          <div class="project-meta">EECS 570 Semester Project · Jan. 2024 - Apr. 2024</div>
+          <p>Implemented a CGRA designed to accelerate matrix-matrix multiplication via systolic arrays in the Structural Simulation Toolkit (SST). Achieved 5–24× speedup over RTL simulation on a single core, and up to 42× speedup by exploiting SST's built-in multi-core parallelism.</p>
+        </div>
+      </article>
+      <article class="project-item">
         <img src="{{ '/assets/images/projects/memory.jpg' | relative_url }}" alt="Memory access pattern recognition project">
         <div>
           <h2>Memory Access Pattern Recognition Using Search Algorithms</h2>
@@ -23,6 +31,14 @@ navbar_title: Projects
           <h2>ACRE: Explainable Random Forest Process-in-Memory Accelerator</h2>
           <div class="project-meta">EECS 583 Semester Project · Sep. 2022 - Dec. 2022</div>
           <p>Explores accelerating explainable random forest inference by moving simple node comparisons into memory, reducing bus traffic and exposing parallelism in XAI workloads.</p>
+        </div>
+      </article>
+      <article class="project-item">
+        <img src="{{ '/assets/images/projects/octal.jpg' | relative_url }}" alt="COCO compiler obliviousness checker">
+        <div>
+          <h2>COCO: Compiler-Based Obliviousness Checker and Optimizer</h2>
+          <div class="project-meta">EECS 583 Semester Project · Sep. 2022 - Dec. 2022</div>
+          <p>A taint-analysis-based compiler framework that verifies data obliviousness of programs, ensuring memory access patterns are independent of sensitive inputs. Applies loop unrolling, loop fusion, and FPLICM optimizations to generate data-oblivious code.</p>
         </div>
       </article>
       <article class="project-item">
